@@ -87,6 +87,10 @@ html {
   height: 100%;
 }
 
+.center {
+  margin: 0 auto;
+}
+
 .last-news {
   width: 100%;
   height: 74.8rem;
@@ -146,18 +150,8 @@ html {
   height: 40%;
 }
 
-.members-ad {
-  margin: 0 auto;
-  height: 64rem;
-}
-
 .ad-box {
   height: 50%;
-}
-
-.suggested-posts {
-  width: 100%;
-  height: 64rem;
 }
 
 .smashing-ad {
@@ -175,6 +169,10 @@ html {
   height: 100%;
 }
 
+.col-12 {
+  width: 100%;
+}
+
 .col-pad {
   padding: 2rem;
 }
@@ -185,8 +183,36 @@ html {
 
 .event-box {
   margin: 0 auto;
-  width: 94vw;
   height: 64rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.coming-up {
+  height: 10%;
+  width: 25%;
+}
+
+.main-title {
+  height: 15%;
+  width: 60%;
+}
+
+.desc-article {
+  height: 20%;
+  width: 50%;
+}
+
+.event-btn {
+  height: 15%;
+  width: 30%;
+}
+
+.img-magazine {
+  height: 40%;
+  width: 60%;
 }
 
 .member-links-box {
