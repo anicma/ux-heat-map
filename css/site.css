@@ -99,8 +99,42 @@ p {
   height: 100%;
 }
 
+.col-3 {
+  width: 25%;
+  height: 100%;
+}
+
+.col-4 {
+  width: 50%;
+  height: 100%;
+}
+
+.col-8 {
+  width: 100%;
+  height: 100%;
+}
+
+.col-9 {
+  width: 75%;
+  height: 100%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-pad {
+  padding: 2rem;
+}
+
 .center {
   margin: 0 auto;
+}
+
+.art-link {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: black;
 }
 
 .last-news {
@@ -146,6 +180,10 @@ p {
   height: 64rem;
 }
 
+[class^="post-"] {
+  padding-left: 2rem;
+}
+
 .post-date {
   height: 10%;
 }
@@ -162,41 +200,25 @@ p {
   height: 40%;
 }
 
-.ad-box {
-  height: 50%;
-}
-
 .smashing-ad {
   margin: 0 auto;
   height: 64rem;
 }
 
-.col-3 {
-  width: 25%;
-  height: 100%;
+.ad-box {
+  height: 50%;
 }
 
-.col-4 {
-  width: 50%;
-  height: 100%;
+.mash-title {
+  height: 12.5%;
 }
 
-.col-8 {
-  width: 100%;
-  height: 100%;
+.ad-desc {
+  height: 12.5%;
 }
 
-.col-9 {
-  width: 75%;
-  height: 100%;
-}
-
-.col-12 {
-  width: 100%;
-}
-
-.col-pad {
-  padding: 2rem;
+.art-1 {
+  height: 50%;
 }
 
 .link-box {
@@ -306,4 +328,22 @@ p {
 
 .book-box {
   display: relative;
+}
+
+.footer-box {
+  height: 70vh;
+}
+
+.footer-title {
+  height: 20%;
+  width: inherit;
+}
+
+.footer-list-box {
+  height: 50%;
+}
+
+.footer-list-item {
+  display: inline;
+  font-size: 2.4rem;
 }
