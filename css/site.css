@@ -1,3 +1,16 @@
+/*
+ * Colors
+ *
+ * level-0: #eaeaea;
+ * level-1: #b6b6b6;
+ * level-2: #838383;
+ * level-3: #616161;
+ * level-4: #404040;
+ * level-5: #2e2e2e;
+ *
+ */
+
+
 /* Reset */
 *,
 *::after,
@@ -5,12 +18,169 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: inherit;
-          box-sizing: inherit; }
+          box-sizing: inherit;
+}
 
 /* Using inheretance */
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  color: #fff;
+  --level-0: #eaeaea;
+  --level-1: #b6b6b6;
+  --level-2: #838383;
+  --level-3: #616161;
+  --level-4: #404040;
+  --level-5: #2e2e2e;
+}
 
+.level-0 {
+  background-color: var(--level-0);
+}
 
+.level-1 {
+  background-color: var(--level-1);
+}
+
+.level-2 {
+  background-color: var(--level-2);
+}
+
+.level-3 {
+  background-color: var(--level-3);
+}
+
+.level-4 {
+  background-color: var(--level-4);
+}
+
+.level-5 {
+  background-color: var(--level-5);
+}
+
+.header {
+  display: block;
+  height: 18rem;
+}
+
+.navbar {
+  display: flex;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 100%;
+}
+
+.last-news {
+  width: 100%;
+  height: 74.8rem;
+}
+
+.center-title-box {
+  text-align: center;
+  font-size: 3.5rem;
+  position: absolute;
+  width: 33rem;
+  height: 9.6rem;
+  top: 20rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  background-color: var(--level-5);
+  color: #fff;
+}
+
+.first-line {
+  display: block;
+  width: 100%;
+}
+
+.second-line {
+  display: inline;
+}
+
+.centered-xy {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 18rem;
+}
+
+.news {
+  width: 100%;
+  height: 64rem;
+}
+
+.latest-posts {
+  width: 100%;
+  height: 64rem;
+}
+
+.members-ad {
+  margin: 0 auto;
+  width: 94vw;
+  height: 64rem;
+}
+
+.suggested-posts {
+  width: 100%;
+  height: 64rem;
+}
+
+.smashing-ad {
+  margin: 0 auto;
+  width: 94vw;
+  height: 64rem;
+}
+
+.col-4 {
+  width: 40%;
+  height: 100%;
+}
+
+.col-8 {
+  width: 80%;
+  height: 100%;
+}
+
+.link-box {
+  height: 17rem;
+}
+
+.event-box {
+  margin: 0 auto;
+  width: 94vw;
+  height: 64rem;
+}
+
+.member-links-box {
+  height: 32rem;
+}
+
+.author-art-box {
+  height: 44rem;
+}
+
+.book-ad-box {
+  height: 33rem;
+}
+
+.guides-box {
+  width: 100%;
+  height: 64rem;
+}
+
+.newsletter-box {
+  width: 100%;
+  height: 64rem;
+}
+
+.footer-box {
+  width: 100%;
+  height: 64rem;
+}
