@@ -82,6 +82,7 @@ p {
 }
 
 .navbar {
+  font-size: 1.9rem;
   display: flex;
   height: 100%;
 }
@@ -125,6 +126,32 @@ p {
 
 .col-pad {
   padding: 2rem;
+}
+
+.latest-news-box {
+  font-size: 3rem;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 46rem;
+  width: 56rem;
+}
+
+.big-title {
+  font-size: 4.5rem;
+}
+
+.author-name-box {
+  height: 20%;
+}
+
+.art-title-box {
+  height: 70%;
+}
+
+.tags-box {
+  height: 10%;
 }
 
 .center {
