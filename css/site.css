@@ -10,26 +10,26 @@
  *
  */
 
-
 /* Reset */
 *,
 *::after,
 *::before {
   padding: 0;
   margin: 0;
+  box-sizing: inherit;
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
 }
 
 /* Using inheretance */
 html {
   font-size: 62.5%;
+  box-sizing: border-box;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 body {
   color: #fff;
+
   --level-0: #eaeaea;
   --level-1: #b6b6b6;
   --level-2: #838383;
@@ -314,11 +314,6 @@ p {
   height: 64rem;
 }
 
-.footer-box {
-  width: 100%;
-  height: 64rem;
-}
-
 .person-week {
   margin-top: 3rem;
   text-transform: uppercase;
@@ -358,6 +353,7 @@ p {
 }
 
 .footer-box {
+  width: 100%;
   position: relative;
   height: 80vh;
   flex-direction: column;
