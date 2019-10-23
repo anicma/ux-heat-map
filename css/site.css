@@ -93,6 +93,7 @@ p {
 
 .row-pad {
   padding: 0 3%;
+  margin: 0.5rem 0;
 }
 
 .col {
@@ -171,7 +172,7 @@ p {
 
 .center-title-box {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3.0rem;
   position: absolute;
   width: 33rem;
   height: 9.6rem;
